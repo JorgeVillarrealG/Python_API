@@ -1,8 +1,9 @@
-# Python API Homework - What's the Weather Like?
+﻿# Python API Homework - What's the Weather Like?
 
 ## Background
 
-Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
+Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. 
+So let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
 
 Now, we know what you may be thinking: _"Duh. It gets hotter..."_
 
@@ -24,7 +25,9 @@ But, if pressed, how would you **prove** it?
 
 ## Part I - WeatherPy
 
-In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
+In this example, you'll be creating a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator.
+ To accomplish this, you'll be utilizing a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), 
+and a little common sense to create a representative model of weather across world cities.
 
 Your first requirement is to create a series of scatter plots to showcase the following relationships:
 
@@ -35,7 +38,8 @@ Your first requirement is to create a series of scatter plots to showcase the fo
 
 After each plot add a sentence or too explaining what the code is and analyzing.
 
-Your second requirement is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
+Your second requirement is to run linear regression on each relationship, only this time separating them into Northern Hemisphere (greater than or equal to 0 degrees latitude)
+ and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
 * Southern Hemisphere - Temperature (F) vs. Latitude
